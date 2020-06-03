@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Emil Sadek</title>
-</head>
-<body>
-  <h1>Hello, World!</h1>
-</body>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bulma.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script defer src="scripts/fontawesome.min.js"></script>
+    <script src="scripts/navbar-toggle.js"></script>
+    <title>Emil Sadek</title>
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <div class="navbar-item">
+          <a class="button" href="#">Emil Sadek</a>
+        </div>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#about">About</a>
+          <a class="navbar-item" href="#projects">Projects</a>
+          <a class="navbar-item" href="resume.pdf" target="_blank">Resume</a>
+          <a class="navbar-item" href="mailto:esadek@ucsc.edu">Contact</a>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-link" href="https://www.linkedin.com/in/emil-sadek/" target="_blank">
+                <span class="icon"><i class="fab fa-linkedin-in"></i></span>
+                <span>LinkedIn</span>
+              </a>
+              <a class="button is-dark" href="https://github.com/esadek/" target="_blank">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>GitHub</span>
+              </a>
+              <a class="button is-info" href="https://www.kaggle.com/esadek/" target="_blank">
+                <span class="icon"><i class="fab fa-kaggle"></i></span>
+                <span>Kaggle</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section class="hero is-fullheight-with-navbar is-primary is-bold">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <img src="images/portrait.png" width="200" height="200">
+          <h1 class="title">Hi, I'm Emil</h1>
+          <h2 class="subtitle">
+            Cognitive Science Student
+            <br>
+            Data Science Enthusiast
+            <br>
+            Full Stack Web Developer
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="hero is-fullheight is-light" id="about">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            About
+          </h1>
+          <h2 class="subtitle">
+            About subtitle
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="hero is-fullheight is-link is-bold" id="projects">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Projects
+          </h1>
+          <h2 class="subtitle">
+            Projects subtitle
+          </h2>
+        </div>
+      </div>
+    </section>
+
+  </body>
 </html>
