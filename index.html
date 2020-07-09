@@ -1,154 +1,96 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en">
   <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/bulma.min.css">
+    <link charset="utf-8">
+    <link name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/pure-min.css">
+    <link rel="stylesheet" href="styles/grids-responsive-min.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="images/favicon.ico">
     <script defer src="scripts/fontawesome.min.js"></script>
-    <script src="scripts/navbar-toggle.js"></script>
     <title>Emil Sadek</title>
-
   </head>
   <body>
-
-    <!-- Navbar -->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <div class="navbar-item">
-          <a class="button">Emil Sadek</a>
-        </div>
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="#about">About</a>
-          <a class="navbar-item" href="#projects">Projects</a>
-          <a class="navbar-item" href="resume.pdf" target="_blank">Resume</a>
-          <a class="navbar-item" href="mailto:esadek@ucsc.edu">Contact</a>
-        </div>
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-link" href="https://www.linkedin.com/in/emil-sadek/" target="_blank">
-                <span class="icon"><i class="fab fa-linkedin-in"></i></span>
-                <span>LinkedIn</span>
-              </a>
-              <a class="button is-dark" href="https://github.com/esadek/" target="_blank">
-                <span class="icon"><i class="fab fa-github"></i></span>
-                <span>GitHub</span>
-              </a>
-              <a class="button is-info" href="https://www.kaggle.com/esadek/" target="_blank">
-                <span class="icon"><i class="fab fa-kaggle"></i></span>
-                <span>Kaggle</span>
-              </a>
-            </div>
+    <div id="layout" class="pure-g">
+      <!-- Sidebar -->
+      <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+          <img src="images/portrait.png" width="125">
+          <h1 class="brand-title">Hi, I'm Emil</h1>
+          <h3 class="brand-tagline">
+            Budding Data Scientist<br>
+            Machine Learning Enthusiast<br>
+            Full Stack Developer
+          </h3>
+          <div class="pure-menu">
+            <ul class="pure-menu-list">
+              <li class="pure-menu-item">
+                <a class="pure-menu-link" href="https://www.linkedin.com/in/emil-sadek/" target="_blank">
+                  <span class="icon"><i class="fab fa-linkedin-in"></i></span>
+                  <span>LinkedIn</span>
+                </a>
+              </li>
+              <li class="pure-menu-item">
+                <a class="pure-menu-link" href="https://github.com/esadek/" target="_blank">
+                  <span class="icon"><i class="fab fa-github"></i></span>
+                  <span>GitHub</span>
+                </a>
+              </li>
+              <li class="pure-menu-item">
+                <a class="pure-menu-link" href="#" target="_blank">
+                  <span class="icon"><i class="far fa-file"></i></span>
+                  <span>Resume</span>
+                </a>
+              </li>
+              <li class="pure-menu-item">
+                <a class="pure-menu-link" href="mailto:esadek@ucsc.edu">
+                  <span class="icon"><i class="far fa-envelope"></i></span>
+                  <span>Contact</span>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </nav>
-
-    <!-- Home -->
-    <section class="hero is-fullheight-with-navbar is-primary is-bold">
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <img src="images/portrait.png" width="200" height="200" style="margin-bottom: 1rem;">
-          <h1 class="title">Hi, I'm Emil</h1>
-          <h2 class="subtitle">
-            Cognitive Science Student
-            <br>
-            Data Science Enthusiast
-            <br>
-            Full Stack Web Developer
-          </h2>
-        </div>
-      </div>
-    </section>
-
-    <!-- About -->
-    <section class="hero is-fullheight" id="about">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            About
-          </h1>
-          <h2 class="subtitle">
-            About subtitle
-          </h2>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects -->
-    <section class="hero is-fullheight is-light" id="projects">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title has-text-centered" style="margin-bottom: 2.5rem;">
-            Projects
-          </h1>
-          <div class="columns">
-
-            <!-- Bank Marketing Classification -->
-            <div class="column is-one-third">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img src="images/bank-marketing-classification.png" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <p class="title is-5">
-                    Bank Marketing Classification
-                  </p>
-                  <div class="content">
-                    Exploratory data analysis and prediction of the success of bank telemarketing campaigns with data from the UC Irvine Machine Learning Repository.
-                  </div>
-                </div>
-                <footer class="card-footer">
-                  <p class="card-footer-item">
-                    <span>
-                      View on <a href="https://github.com/esadek/bank-marketing-classification" target="_blank">GitHub</a>
-                    </span>
-                  </p>
-                </footer>
+      <!-- Content -->
+      <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+          <!-- Projects -->
+          <div class="posts">
+            <h1 class="content-subhead">Projects</h1>
+            <section class="post">
+              <header class="post-header">
+                <h2 class="post-title">Bank Marketing Classification</h2>
+                <p class="post-link">View on <a href="https://github.com/esadek/bank-marketing-classification" target="_blank">GitHub</a></p>
+              </header>
+              <div class="post-description">
+                <img class="pure-img post-images" src="images/bank-marketing-classification.png">
+                <p>Predicting the success of bank telemarketing campaigns. Exploratory data analysis with Pandas and Seaborn; feature engineering and predictive modeling with PyCaret. Data from the UC Irvine Machine Learning Repository.</p>
               </div>
-            </div>
-
-            <!-- San Francisco Salaries Analysis -->
-            <div class="column is-one-third">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img src="images/sf-salaries-analysis.png" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <p class="title is-5">
-                    San Francisco Salaries Analysis
-                  </p>
-                  <div class="content">
-                    Analysis and visualization of the compensation for San Francisco city employees on an annual basis from 2011 to 2014 with data from Transparent California.
-                  </div>
-                </div>
-                <footer class="card-footer">
-                  <p class="card-footer-item">
-                    <span>
-                      View on <a href="https://www.kaggle.com/esadek/sf-salaries-analysis" target="_blank">Kaggle</a>
-                    </span>
-                  </p>
-                </footer>
+            </section>
+            <section class="post">
+              <header class="post-header">
+                <h2 class="post-title">San Francisco Salaries Analysis</h2>
+                <p class="post-link">View on <a href="https://www.kaggle.com/esadek/sf-salaries-analysis" target="_blank">Kaggle</a></p>
+              </header>
+              <div class="post-description">
+                <img class="pure-img post-images" src="images/sf-salaries-analysis.png">
+                <p>Simple exploratory analysis and visualization of the compensation for San Francisco city employees on an annual basis from 2011 to 2014. Data from Transparent California maintained by Kaggle.</p>
               </div>
-            </div>
+            </section>
+          </div>
+          <!-- Blog Posts -->
+          <div class="posts">
+            <h1 class="content-subhead">Blog Posts</h1>
+            <section class="post">
+              <header class="post-header">
+                <h2 class="post-title">Coming Soon</h2>
+                <p class="post-link">Read on <a href="https://medium.com/@emilsadek" target="_blank">Medium</a></p>
+              </header>
+            </section>
           </div>
         </div>
       </div>
-    </section>
-
+    </div>
   </body>
 </html>
