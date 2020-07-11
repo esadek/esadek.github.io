@@ -1,127 +1,75 @@
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+h1 {
+    font-weight: bold;
+    letter-spacing: normal;
 }
 
-a {
-    text-decoration: none;
-    color: #3d92c9;
+h2 {
+    letter-spacing: normal;
 }
 
-#layout {
-    padding: 0;
+hr {
+    margin: 0;
 }
 
-.sidebar {
-    background: url(/images/bg.jpg);
-    color: #fff;
+.container {
+    min-width: 100%;
 }
 
-.header {
+#sidebar {
+    color: white;
     text-align: center;
-    top: auto;
-    margin: 2em auto;
+    background: url(/images/background.jpg);
+    padding-top: 3rem;
 }
 
-.brand-title {
-    margin-bottom: 1rem;
+#sidebar > h2 {
+    font-size: 2rem;
+    margin: 2rem 0;
 }
 
-.brand-tagline {
-    font-weight: 300;
-    margin: 0;
+#portrait {
+    width: 125px;
+    margin-bottom: 2rem;
 }
 
-.pure-menu {
-    margin-top: 1.5rem;
+.button {
+    color: white;
+    font-size: 1.5rem;
+    text-transform: none;
+    letter-spacing: normal;
+    border: none;
+    padding: 0 35px;
+    margin-bottom: 0;
 }
 
-.pure-menu-link {
-    color: #fff;
+.button:hover,
+.button:focus {
+    background-color: white;
 }
 
-.pure-menu-active > .pure-menu-link,
-.pure-menu-link:focus,
-.pure-menu-link:hover {
-    background-color: #fff;
-    color: #3d4f5d;
+#content {
+    padding: 3rem;
 }
 
-.content {
-    padding: 2em 1em 0;
+#projects > h1 {
+    font-size: 2rem;
 }
 
-.content-subhead {
-    text-transform: uppercase;
-    color: #aaa;
-    border-bottom: 1px solid #eee;
-    padding: 0.4em 0;
-    font-size: 80%;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-}
-
-.post {
-    padding-bottom: 2em;
-}
-
-.post-title {
-    font-size: 2em;
-    color: #222;
-    margin-bottom: 0.2em;
-}
-
-.post-link {
-    color: #999;
-    font-size: 90%;
-    margin: 0;
-}
-
-.post-link a:hover,
-.post-link a:focus {
-    text-decoration: underline;
-}
-
-.post-description {
-    font-family: Georgia, "Cambria", serif;
-    color: #444;
-    line-height: 1.8em;
-}
-
-.post-images {
-    margin-top: 1rem;
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-@media (min-width: 48em) {
-    .sidebar {
+@media (min-width: 550px) {
+    #sidebar {
+        height: 100vh;
         position: fixed;
-        top: 0;
-        bottom: 0;
     }
 
-    .header {
-        margin: 20% 2em 0;
-        text-align: center;
+    #sidebar > h1 {
+        font-size: 4vw;
     }
 
-    .brand-title {
-        font-size: 2.8vw;
+    #sidebar > h2 {
+        font-size: 1.6vw;
     }
 
-    .brand-tagline {
-        font-size: 1.28vw;
-    }
-
-    .content {
-        padding: 2em 3em 0;
-        margin-left: 25%;
-    }
-
-    .post-images {
-        width: 60%;
-    }
+    .column {
+        float: right;
+    } 
 }
