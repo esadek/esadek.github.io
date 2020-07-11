@@ -1,96 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link charset="utf-8">
-    <link name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/pure-min.css">
-    <link rel="stylesheet" href="styles/grids-responsive-min.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <script defer src="scripts/fontawesome.min.js"></script>
-    <title>Emil Sadek</title>
-  </head>
-  <body>
-    <div id="layout" class="pure-g">
-      <!-- Sidebar -->
-      <div class="sidebar pure-u-1 pure-u-md-1-4">
-        <div class="header">
-          <img src="images/portrait.png" width="125">
-          <h1 class="brand-title">Hi, I'm Emil</h1>
-          <h3 class="brand-tagline">
-            Budding Data Scientist<br>
-            Machine Learning Enthusiast<br>
-            Full Stack Developer
-          </h3>
-          <div class="pure-menu">
-            <ul class="pure-menu-list">
-              <li class="pure-menu-item">
-                <a class="pure-menu-link" href="https://www.linkedin.com/in/emil-sadek/" target="_blank">
-                  <span class="icon"><i class="fab fa-linkedin-in"></i></span>
-                  <span>LinkedIn</span>
-                </a>
-              </li>
-              <li class="pure-menu-item">
-                <a class="pure-menu-link" href="https://github.com/esadek/" target="_blank">
-                  <span class="icon"><i class="fab fa-github"></i></span>
-                  <span>GitHub</span>
-                </a>
-              </li>
-              <li class="pure-menu-item">
-                <a class="pure-menu-link" href="#" target="_blank">
-                  <span class="icon"><i class="far fa-file"></i></span>
-                  <span>Resume</span>
-                </a>
-              </li>
-              <li class="pure-menu-item">
-                <a class="pure-menu-link" href="mailto:esadek@ucsc.edu">
-                  <span class="icon"><i class="far fa-envelope"></i></span>
-                  <span>Contact</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+<head>
+  <meta charset="utf-8">
+  <title>Emil Sadek</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="scripts/fontawesome.js"></script>
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div id="sidebar" class="one-third column">
+        <img id="portrait" src="/images/portrait.png">
+        <h1>Hi, I'm Emil</h1>
+        <h2>
+          Budding Data Scientist<br>
+          Machine Learning Enthusiast<br>
+          Full Stack Developer
+        </h2>
+        <h6>
+          <a class="button" href="https://www.linkedin.com/in/emil-sadek/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a><br>
+          <a class="button" href="https://github.com/esadek" target="_blank"><i class="fab fa-github"></i> GitHub</a><br>
+          <a class="button" href=""><i class="far fa-file"></i> Resume</a><br>
+          <a class="button" href="mailto:esadek@ucsc.edu"><i class="far fa-envelope"></i> Contact</a>
+        </h6>
       </div>
-      <!-- Content -->
-      <div class="content pure-u-1 pure-u-md-3-4">
-        <div>
-          <!-- Projects -->
-          <div class="posts">
-            <h1 class="content-subhead">Projects</h1>
-            <section class="post">
-              <header class="post-header">
-                <h2 class="post-title">Bank Marketing Classification</h2>
-                <p class="post-link">View on <a href="https://github.com/esadek/bank-marketing-classification" target="_blank">GitHub</a></p>
-              </header>
-              <div class="post-description">
-                <img class="pure-img post-images" src="images/bank-marketing-classification.png">
-                <p>Predicting the success of bank telemarketing campaigns. Exploratory data analysis with Pandas and Seaborn; feature engineering and predictive modeling with PyCaret. Data from the UC Irvine Machine Learning Repository.</p>
-              </div>
-            </section>
-            <section class="post">
-              <header class="post-header">
-                <h2 class="post-title">San Francisco Salaries Analysis</h2>
-                <p class="post-link">View on <a href="https://www.kaggle.com/esadek/sf-salaries-analysis" target="_blank">Kaggle</a></p>
-              </header>
-              <div class="post-description">
-                <img class="pure-img post-images" src="images/sf-salaries-analysis.png">
-                <p>Simple exploratory analysis and visualization of the compensation for San Francisco city employees on an annual basis from 2011 to 2014. Data from Transparent California maintained by Kaggle.</p>
-              </div>
-            </section>
-          </div>
-          <!-- Blog Posts -->
-          <div class="posts">
-            <h1 class="content-subhead">Blog Posts</h1>
-            <section class="post">
-              <header class="post-header">
-                <h2 class="post-title">Coming Soon</h2>
-                <p class="post-link">Read on <a href="https://medium.com/@emilsadek" target="_blank">Medium</a></p>
-              </header>
-            </section>
-          </div>
+      <div id="content" class="two-thirds column">
+        <div id="projects">
+          <h1>Projects</h1>
+          <hr>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>
