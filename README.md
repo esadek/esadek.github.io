@@ -3,9 +3,10 @@
 My personal website
 
 ## Dependencies
-- [Bootstrap](https://github.com/twbs/bootstrap)
-- [jQuery](https://github.com/jquery/jquery)
-- [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
+- [Bootstrap](https://getbootstrap.com/) CSS framework
+- [jQuery](https://jquery.com/) JavaScript library
+- [Font Awesome](https://fontawesome.com/) icons
+- [GitHub Pages](https://pages.github.com/) hosting
 
 ## License
 [MIT](https://github.com/esadek/esadek.github.io/blob/master/LICENSE)
