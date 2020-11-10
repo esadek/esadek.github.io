@@ -7,6 +7,3 @@ My personal website
 - [jQuery](https://jquery.com/) JavaScript library
 - [Font Awesome](https://fontawesome.com/) icons
 - [GitHub Pages](https://pages.github.com/) hosting
-
-## License
-[MIT](https://github.com/esadek/esadek.github.io/blob/master/LICENSE)
