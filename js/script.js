@@ -1,10 +1,10 @@
-let body = document.querySelector("body");
-let navbar = document.querySelector(".navbar");
-let cards = document.querySelectorAll(".card");
-let githubButtons = document.querySelectorAll(".github");
-let toggle = document.querySelector("#toggle");
+var body = document.querySelector("body");
+var navbar = document.querySelector(".navbar");
+var cards = document.querySelectorAll(".card");
+var githubButtons = document.querySelectorAll(".github");
+var toggle = document.querySelector("#toggle");
 
-toggle.onclick = function toggleDarkMode() {
+function toggleDarkMode() {
     if (body.classList.contains("bg-light")) {
         // Switch to dark mode
         body.classList.remove("bg-light");
@@ -23,6 +23,7 @@ toggle.onclick = function toggleDarkMode() {
                 button.classList.add("btn-outline-light");
             }
         );
+        toggle.innerHTML = "<i class=\"fas fa-sun\"></i>";
     } else {
         // Switch to light mode
         body.classList.remove("bg-dark", "text-light");
@@ -41,5 +42,6 @@ toggle.onclick = function toggleDarkMode() {
                 button.classList.add("btn-outline-dark");
             }
         );
+        toggle.innerHTML = "<i class=\"fas fa-moon\"></i>";
     }
 }
