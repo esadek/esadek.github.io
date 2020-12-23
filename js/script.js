@@ -13,7 +13,6 @@ function toggleDarkMode() {
         navbar.classList.add("navbar-dark", "bg-dark");
         cards.forEach(
             function(card) {
-                card.classList.remove("bg-light");
                 card.classList.add("bg-dark", "border-secondary");
             }
         );
@@ -33,7 +32,6 @@ function toggleDarkMode() {
         cards.forEach(
             function(card) {
                 card.classList.remove("bg-dark", "border-secondary");
-                card.classList.add("bg-light");
             }
         );
         githubButtons.forEach(
