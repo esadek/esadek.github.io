@@ -7,10 +7,8 @@ var toggle = document.querySelector("#toggle")
 function toggleDarkMode() {
     if (body.classList.contains("bg-light")) {
         // Switch to dark mode
-        body.classList.remove("bg-light")
-        body.classList.add("bg-dark", "text-light")
-        navbar.classList.remove("navbar-light", "bg-light")
-        navbar.classList.add("navbar-dark", "bg-dark")
+        body.className = "bg-dark text-light"
+        navbar.className = "navbar navbar-expand-lg navbar-dark bg-dark"
         cards.forEach(
             function(card) {
                 card.classList.add("bg-dark", "border-secondary")
@@ -25,10 +23,8 @@ function toggleDarkMode() {
         toggle.innerHTML = "<i class=\"fas fa-sun\"></i>"
     } else {
         // Switch to light mode
-        body.classList.remove("bg-dark", "text-light")
-        body.classList.add("bg-light")
-        navbar.classList.remove("navbar-dark", "bg-dark")
-        navbar.classList.add("navbar-light", "bg-light")
+        body.className = "bg-light"
+        navbar.className = "navbar navbar-expand-lg navbar-light bg-light"
         cards.forEach(
             function(card) {
                 card.classList.remove("bg-dark", "border-secondary")
