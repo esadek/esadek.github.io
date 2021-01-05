@@ -1,4 +1,4 @@
-var body = document.querySelector("body")
+var body = document.body
 var navbar = document.querySelector(".navbar")
 var cards = document.querySelectorAll(".card")
 var githubButtons = document.querySelectorAll(".github")
