@@ -1,7 +1,7 @@
 var body = document.body
 var navbar = document.querySelector(".navbar")
 var cards = document.querySelectorAll(".card")
-var githubButtons = document.querySelectorAll(".github")
+var projectButtons = document.querySelectorAll("#projects button")
 var toggle = document.querySelector("#toggle")
 
 function toggleDarkMode() {
@@ -14,7 +14,7 @@ function toggleDarkMode() {
                 card.classList.add("bg-dark", "border-secondary")
             }
         );
-        githubButtons.forEach(
+        projectButtons.forEach(
             function(button) {
                 button.classList.remove("btn-outline-dark")
                 button.classList.add("btn-outline-light")
@@ -30,7 +30,7 @@ function toggleDarkMode() {
                 card.classList.remove("bg-dark", "border-secondary")
             }
         );
-        githubButtons.forEach(
+        projectButtons.forEach(
             function(button) {
                 button.classList.remove("btn-outline-light")
                 button.classList.add("btn-outline-dark")
