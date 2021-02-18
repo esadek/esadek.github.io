@@ -27,8 +27,6 @@ a {
     color: #DC3545;
 }
 
-@media (max-width: 768px) {
-    .card {
-        margin-bottom: .5rem;
-    }
+.card {
+    margin-bottom: .5rem;
 }
