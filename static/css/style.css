@@ -15,22 +15,34 @@ a {
     background: linear-gradient(90deg, hsla(222, 51%, 34%, 1) 0%, hsla(119, 37%, 45%, 1) 100%);
 }
 
+.card {
+    margin: 0.25rem;
+}
+
+.fa-python {
+    color: #0D6EFD;
+}
+
+.fa-js {
+    color: #FFC107;
+}
+
+.fa-bootstrap {
+    color: #6F42C1
+}
+
+.fa-html5 {
+    color: #FD7E14;
+}
+
+.fa-css3-alt {
+    color: #0D6EFD;
+}
+
 #footer hr {
     margin: 0;
 }
 
 #footer p {
     margin: 12px;
-}
-
-#made-with {
-    float: right
-}
-
-.fa-heart {
-    color: #DC3545;
-}
-
-.card {
-    margin: 0.25rem;
 }
