@@ -12,7 +12,7 @@ a {
 
 #about {
     color: #FFFFFF;
-    background: linear-gradient(90deg, hsla(222, 51%, 34%, 1) 0%, hsla(119, 37%, 45%, 1) 100%);
+    background: linear-gradient(45deg, hsla(222, 51%, 34%, 1) 0%, hsla(119, 37%, 45%, 1) 100%);
 }
 
 .card {
