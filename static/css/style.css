@@ -19,6 +19,10 @@ a {
     margin: 0.25rem;
 }
 
+.card-footer span {
+    display: inline-block;
+}
+
 .fa-python {
     color: #0D6EFD;
 }
