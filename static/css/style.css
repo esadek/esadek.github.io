@@ -15,10 +15,6 @@ a {
     background: linear-gradient(45deg, hsla(222, 51%, 34%, 1) 0%, hsla(119, 37%, 45%, 1) 100%);
 }
 
-.card {
-    margin: 0.25rem;
-}
-
 .card-footer span {
     display: inline-block;
 }
