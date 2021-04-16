@@ -20,23 +20,35 @@ a {
 }
 
 .fa-python {
-    color: #0D6EFD;
+    color: #4B8BBE;
 }
 
 .fa-js {
-    color: #FFC107;
+    color: #F0DB4F;
 }
 
 .fa-bootstrap {
-    color: #6F42C1
+    color: #7952B3;
+}
+
+.fa-aws {
+    color: #EC912D;
 }
 
 .fa-html5 {
-    color: #FD7E14;
+    color: #E44D26;
 }
 
 .fa-css3-alt {
-    color: #0D6EFD;
+    color: #264DE4;
+}
+
+.postgres {
+    color: #336791;
+}
+
+.heroku {
+    color: #9E7CC1;
 }
 
 #footer p {
