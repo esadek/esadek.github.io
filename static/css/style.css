@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+#contact {
+    padding-right: 0;
+}
+
 #about {
     background-color: #F7F7F7;
 }
