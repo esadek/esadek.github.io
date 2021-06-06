@@ -6,13 +6,8 @@ a {
     text-decoration: none;
 }
 
-.navbar-nav:last-child .nav-link {
-    padding-right: 0;
-}
-
 #about {
-    color: #FFFFFF;
-    background: linear-gradient(45deg, hsla(222, 51%, 34%, 1) 0%, hsla(119, 37%, 45%, 1) 100%);
+    background-color: #F7F7F7;
 }
 
 .card-footer span {
