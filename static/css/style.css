@@ -6,7 +6,7 @@ a {
     text-decoration: none;
 }
 
-#toggle {
+.navbar-nav:last-child .nav-link {
     padding-right: 0;
 }
 
