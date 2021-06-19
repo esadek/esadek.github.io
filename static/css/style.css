@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+.navbar-brand {
+    font-size: calc(1.325rem + .9vw);
+}
+
 #contact {
     padding-right: 0;
 }
