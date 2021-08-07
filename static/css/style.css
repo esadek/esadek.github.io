@@ -10,6 +10,10 @@ a {
     font-size: calc(1.3rem + .6vw);
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
 #contact {
     padding-right: 0;
 }
