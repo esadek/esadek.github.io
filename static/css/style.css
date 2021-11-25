@@ -17,15 +17,3 @@ a {
 #contact {
     padding-right: 0;
 }
-
-.card a:hover {
-    text-decoration: underline;
-}
-
-.fa-python {
-    color: #3572A5;
-}
-
-.fa-js {
-    color: #F1E05A;
-}
