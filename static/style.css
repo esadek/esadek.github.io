@@ -3,7 +3,12 @@ body {
 }
 
 a {
+    color: #4158D0;
     text-decoration: none;
+}
+
+a:hover {
+    color: #C850C0;
 }
 
 @media (min-width: 1200px) {
@@ -22,7 +27,7 @@ a {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #FFFFFF;
+    color: #FFF;
 }
 
 #contact {
