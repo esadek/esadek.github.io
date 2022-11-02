@@ -7,7 +7,8 @@ const site = lume();
 site.use(date())
     .use(codeHighlight());
 
-site.copy("static");
+site.copy("static")
+    .copy("CNAME");
 
 site.ignore("README.md");
 
