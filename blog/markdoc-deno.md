@@ -1,6 +1,6 @@
 ---
 title: Running Markdoc on Deno
-date: 2023-01-22
+date: 2023-01-25
 layout: post.njk
 ---
 
