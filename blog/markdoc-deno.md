@@ -30,4 +30,4 @@ Here's a breakdown of the code above:
 2. Parse the string into an abstract syntax tree with [Markdoc.parse](https://markdoc.dev/docs/render#parse).
 3. Transform the abstract syntax tree into a renderable tree with [Markdoc.transform](https://markdoc.dev/docs/render#transform).
 4. Render the renderable tree into a HTML document as a string with [Markdoc.html](https://markdoc.dev/docs/render#html).
-5. Output to an HTML file with [Deno.writeTextFile](https://deno.land/api@v1.30.0?s=Deno.writeTextFile).
+5. Output to a HTML file with [Deno.writeTextFile](https://deno.land/api@v1.30.0?s=Deno.writeTextFile).
