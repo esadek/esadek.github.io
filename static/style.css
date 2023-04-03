@@ -5,12 +5,12 @@ body {
 }
 
 a {
-    color: #4158D0;
+    color: #4E54C8;
     text-decoration: none;
 }
 
 a:hover {
-    color: #C850C0;
+    color: #8F94FB;
     text-decoration: none;
 }
 
@@ -46,8 +46,8 @@ pre {
 }
 
 .gradient {
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: #4E54C8;
+    background-image: linear-gradient(45deg, #4E54C8 0%, #8F94FB 100%);
 }
 
 .navbar-brand {
