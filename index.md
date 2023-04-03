@@ -3,7 +3,7 @@ title: Emil Sadek
 layout: home.njk
 ---
 
-<p class="fs-5 mb-0">
+<p class="mb-0 fs-5">
   Hi, I'm Emil.
   I'm a software developer from Oakland, California.
   I currently work as a Technical Account Manager at <a href="https://www.rudderstack.com/" target="_blank">RudderStack</a>, enabling developers to solve complex customer data problems.

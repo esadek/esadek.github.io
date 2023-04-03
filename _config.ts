@@ -5,10 +5,10 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 const site = lume();
 
 site.use(date())
-    .use(codeHighlight());
+  .use(codeHighlight());
 
 site.copy("static")
-    .copy("CNAME");
+  .copy("CNAME");
 
 site.ignore("README.md");
 

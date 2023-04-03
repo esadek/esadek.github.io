@@ -1,6 +1,10 @@
 # Emil Sadek's Blog
 
-Built with [Lume](https://lume.land/), [Nunjucks](https://mozilla.github.io/nunjucks/), [Bootstrap](https://getbootstrap.com/) and [Highlight.js](https://highlightjs.org/). Hosted with [GitHub Pages](https://pages.github.com/).
+Built with [Lume](https://lume.land/),
+[Nunjucks](https://mozilla.github.io/nunjucks/),
+[Bootstrap](https://getbootstrap.com/) and
+[Highlight.js](https://highlightjs.org/). Hosted with
+[GitHub Pages](https://pages.github.com/).
 
 ## Development
 

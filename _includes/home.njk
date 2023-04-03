@@ -9,9 +9,9 @@ layout: base.njk
 <div class="container">
   <hr class="mt-0 mb-5">
   {% for page in search.pages("layout=post.njk", "date=desc") %}
-    <div class="mb-5">
+    <div class="mb-2 d-flex justify-content-between">
+      <a class="fs-5"href="{{ page.data.url }}">{{ page.data.title }}</a> 
       <p class="text-muted fw-light mb-0">{{ page.data.date | date("HUMAN_DATE") }}</p>
-      <a class="fs-5"href="{{ page.data.url }}">{{ page.data.title }}</a>
     </div>
   {% endfor %}
 </div>
