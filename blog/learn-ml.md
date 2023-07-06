@@ -6,12 +6,12 @@ layout: post.njk
 
 #### Math
 
-- [Math for Machine Learning](https://www.youtube.com/playlist?list=PLD80i8An1OEGZ2tYimemzwC3xqkU0jKUg/) - Weights & Biases
+- [Math for Machine Learning](https://www.youtube.com/playlist?list=PLD80i8An1OEGZ2tYimemzwC3xqkU0jKUg) - Weights & Biases
 - [Mathematics for Machine Learning](https://mml-book.github.io/) - Marc Peter Deisenroth, A. Aldo Faisal and Cheng Soon Ong
 
 #### Machine Learning
 
-- [Machine Learning](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN/) - Stanford University
+- [Machine Learning Specialization](https://www.youtube.com/playlist?list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI) - Andrew Ng
 - [An Introduction to Statistical Learning](https://www.statlearning.com/) - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 
 #### Deep Learning
@@ -23,4 +23,4 @@ layout: post.njk
 #### Reinforcement Learning
 
 - [Reinforcement Learning Lecture Series](https://www.deepmind.com/learning-resources/reinforcement-learning-lecture-series-2021/) - DeepMind x UCL
-- [Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf/) - Richard S. Sutton and Andrew G. Barto
+- [Reinforcement Learning](http://incompleteideas.net/book/RLbook2020.pdf) - Richard S. Sutton and Andrew G. Barto
