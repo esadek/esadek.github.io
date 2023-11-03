@@ -4,11 +4,11 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 
 const site = lume();
 
-site.use(date())
-  .use(codeHighlight());
+site.use(date());
+site.use(codeHighlight());
 
-site.copy("static")
-  .copy("CNAME");
+site.copy("static");
+site.copy("CNAME");
 
 site.ignore("README.md");
 
