@@ -1,29 +1,39 @@
-@import "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/github.min.css";
+@import "https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css";
+
+:root {
+    --white: #F8F8F2;
+    --dark: #15171B;
+    --purple: #D2A8FF;
+    --muted: #6C757D;
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    background-color: #1D1E26;
+    color: var(--white);
 }
 
-a {
-    color: #4E54C8;
-    text-decoration: none;
+main a {
+    color: var(--white);
+    text-decoration-color: var(--muted);
 }
 
-a:hover {
-    color: #8F94FB;
-    text-decoration: none;
+main a:hover {
+    color: var(--white);
 }
 
 code {
     font-size: 85%;
-    color: #212529;
-    background-color: #F8F9FA;
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--white);
+    background-color: var(--dark);
     padding: .2em .4em;
     border-radius: 6px;
 }
 
 pre code {
-    background-color: #F8F9FA !important;
+    background-color: var(--dark) !important;
 }
 
 pre {
@@ -36,6 +46,10 @@ pre {
     }
 }
 
+#contact {
+    padding-right: 0;
+}
+
 #post img {
     padding-bottom: 1rem;
     max-width: 90vw;
@@ -45,19 +59,15 @@ pre {
     max-width: 720px;
 }
 
-.gradient {
-    background-color: #4E54C8;
-    background-image: linear-gradient(45deg, #4E54C8 0%, #8F94FB 100%);
+.navbar {
+    background-color: var(--dark);
 }
 
 .navbar-brand {
     font-size: calc(1.3rem + .6vw);
+    color: var(--white) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #FFFFFF;
-}
-
-#contact {
-    padding-right: 0;
+    color: var(--white);
 }
