@@ -1,7 +1,8 @@
 ---
 title: Memoization in Python 3
+description: An introduction to implementing memoization in Python 3.
 date: 2021-05-24
-layout: post.njk
+layout: post.tsx
 ---
 
 [Memoization](https://en.wikipedia.org/wiki/Memoization) is an optimization

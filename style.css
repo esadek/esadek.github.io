@@ -1,0 +1,85 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-gray: #f8f9fa;
+  --dark-blue: #4e54c8;
+  --light-blue: #8f94fb;
+  --navbar-hover: #e3e4fe;
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+}
+
+a {
+  color: var(--dark-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--light-blue);
+  text-decoration: none;
+}
+
+code {
+  font-size: 85%;
+  color: #212529;
+  background-color: var(--light-gray);
+  padding: 0.2em 0.4em;
+  border-radius: 6px;
+}
+
+pre code {
+  background-color: var(--light-gray) !important;
+  border: #d0d7de solid 1px;
+}
+
+pre {
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.bg-gradient {
+  background-color: var(--dark-blue);
+  background-image: linear-gradient(
+    45deg,
+    var(--dark-blue) 0%,
+    var(--light-blue) 100%
+  );
+}
+
+.navbar a:hover {
+  color: var(--navbar-hover);
+}
+
+.post h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.post img {
+  max-width: 90vw;
+  margin-bottom: 1rem;
+}
+
+.post p {
+  margin-bottom: 1rem;
+}
+
+.post ul {
+  margin-bottom: 1rem;
+}

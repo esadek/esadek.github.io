@@ -1,8 +1,8 @@
 # Emil Sadek's Blog
 
 Built with [Lume](https://lume.land/),
-[Nunjucks](https://mozilla.github.io/nunjucks/),
-[Bootstrap](https://getbootstrap.com/) and
+[JSX](https://facebook.github.io/jsx/),
+[Tailwind CSS](https://tailwindcss.com/) and
 [Highlight.js](https://highlightjs.org/). Hosted with
 [GitHub Pages](https://pages.github.com/).
 
