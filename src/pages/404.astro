@@ -1,0 +1,24 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Page Not Found">
+  <div>
+    <p>404</p>
+    <p class="heading">
+      Page not found
+    </p>
+    <p class="link">
+      <a href="/">&larr; Back to home</a>
+    </p>
+  </div>
+</Layout>
+
+<style>
+  div {
+    @apply flex flex-col justify-center text-center py-8;
+  }
+  .heading {
+    @apply text-5xl font-medium mt-4 mb-8;
+  }
+</style>
