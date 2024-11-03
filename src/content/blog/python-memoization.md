@@ -44,7 +44,7 @@ memoization:
 (new in Python 3.2) and
 [`cache`](https://docs.python.org/3/library/functools.html#functools.cache) (new
 in Python 3.9). These decorators use a
-[least recently used (LRU)](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU))
+[least recently used (LRU)](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_(LRU))
 cache, which stores items in order of use, discarding the least recently used
 items to make room for new items.
 
