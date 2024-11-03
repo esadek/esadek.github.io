@@ -1,0 +1,20 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Layout from "./Layout.astro";
+
+type Props = CollectionEntry<"blog">["data"];
+
+const { title, date } = Astro.props;
+---
+
+<Layout title={title}>
+  <div class="post pb-8">
+    <h1 class="text-3xl mb-2">
+      {title}
+    </h1>
+    <p class="text-zinc-400 mb-8">
+      {new Date(date).toDateString()}
+    </p>
+    <slot />
+  </div>
+</Layout>

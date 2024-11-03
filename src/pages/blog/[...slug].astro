@@ -1,0 +1,48 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import BlogPost from "../../layouts/BlogPost.astro";
+
+export async function getStaticPaths() {
+	const posts = await getCollection("blog");
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: post,
+	}));
+}
+
+type Props = CollectionEntry<'blog'>;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<BlogPost {...post.data}>
+	<Content />
+</BlogPost>
+
+<style>
+  :global(h2) {
+    @apply text-xl mb-2;
+  }
+	:global(ul) {
+		@apply mb-4;
+	}
+	:global(p) {
+		@apply mb-4;
+	}
+	:global(.post a) {
+		@apply text-blue-400 hover:text-blue-500;
+	}
+	:global(pre) {
+		@apply rounded-lg border border-zinc-700 p-4 mb-4;
+	}
+	:global(img) {
+		@apply mb-4;
+	}
+	:global(code) {
+		font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	}
+	:global(p code) {
+		@apply rounded-sm bg-[#24292E] text-[#E1E4E8] px-1 py-0.5;
+	}
+</style>

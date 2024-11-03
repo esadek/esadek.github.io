@@ -1,0 +1,35 @@
+---
+import Email from "./icons/Email.astro"
+import GitHub from "./icons/GitHub.astro";
+import LinkedIn from "./icons/LinkedIn.astro";
+
+const links = [
+  {
+    icon: GitHub,
+    href: "https://github.com/esadek",
+    text: "GitHub"
+  },
+  {
+    icon: LinkedIn,
+    href: "https://www.linkedin.com/in/emil-sadek",
+    text: "LinkedIn"
+  },
+  {
+    icon: Email,
+    href: "mailto:esadek@hotmail.com",
+    text: "Contact"
+  }
+];
+---
+
+<div class="flex flex-col sm:flex-row items-center justify-between py-8">
+  <a href="/" class="text-xl mb-2 sm:mb-0">Emil Sadek</a>
+  <div class="flex gap-4">
+    {links.map((link) => (
+      <a href={link.href} class="flex items-center">
+        <link.icon />
+        &nbsp;{link.text}
+      </a>
+    ))}
+  </div>
+</div>

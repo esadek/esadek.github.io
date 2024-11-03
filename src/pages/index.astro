@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+
+const blogPosts = await getCollection("blog");
+---
+
+<Layout title="Emil Sadek">
+	<main class="text-lg">
+		<p class="bg-gradient-to-b from-blue-900 to-blue-950 border border-blue-600 rounded-lg p-6 mb-8">
+			Hi, I'm Emil. I'm a software developer based in Prague.
+			I currently work as a Technical Account Manager at RudderStack, enabling developers to solve complex customer data problems.
+			My interests include programming, data, analytics, and machine learning.
+		</p>
+		<ul role="list" class="grid grid-cols-[repeat(auto-fit,_minmax(24ch,_1fr))] gap-8 p-0">
+			{blogPosts.map((post) => (
+				<Card
+					href={"/blog/" + post.slug}
+					title={post.data.title}
+					body={post.data.description}
+				/>
+			))}
+		</ul>
+	</main>
+</Layout>
