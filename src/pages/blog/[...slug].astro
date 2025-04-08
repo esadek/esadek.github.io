@@ -19,33 +19,3 @@ const { Content } = await post.render();
 <BlogPost {...post.data}>
   <Content />
 </BlogPost>
-
-<style>
-  @import "tailwindcss";
-
-  :global(h2) {
-    @apply text-xl mb-2;
-  }
-  :global(ul) {
-    @apply mb-4;
-  }
-  :global(p) {
-    @apply mb-4;
-  }
-  :global(.post a) {
-    @apply text-[#89b4fa];
-  }
-  :global(pre) {
-    @apply rounded-lg px-3 py-2 mb-4;
-  }
-  :global(img) {
-    @apply mb-4;
-  }
-  :global(code) {
-    @apply text-sm;
-    font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
-  }
-  :global(p code) {
-    @apply rounded-sm bg-[#1e1e2e] px-1 py-0.5;
-  }
-</style>

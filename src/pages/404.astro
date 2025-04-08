@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Page Not Found">
-  <div>
+  <div id="notfound">
     <p>404</p>
     <p class="heading">
       Page not found
@@ -13,14 +13,3 @@ import Layout from "../layouts/Layout.astro";
     </p>
   </div>
 </Layout>
-
-<style>
-  @import "tailwindcss";
-
-  div {
-    @apply flex flex-col justify-center text-center py-8;
-  }
-  .heading {
-    @apply text-5xl font-medium mt-4 mb-8;
-  }
-</style>

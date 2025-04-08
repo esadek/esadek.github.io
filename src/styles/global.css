@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+#notfound {
+  @apply flex flex-col justify-center text-center py-8;
+}
+
+#notfound .heading {
+  @apply text-5xl font-medium mt-4 mb-8;
+}
+
+.post h2 {
+  @apply text-xl mb-2;
+}
+
+.post ul {
+  @apply mb-4;
+}
+
+.post p {
+  @apply mb-4;
+}
+
+.post a {
+  @apply text-[#89b4fa];
+}
+
+.post pre {
+  @apply rounded-lg px-3 py-2 mb-4;
+}
+
+.post img {
+  @apply mb-4;
+}
+
+.post code {
+  @apply text-sm;
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+.post p code {
+  @apply rounded-sm bg-[#1e1e2e] px-1 py-0.5;
+}
