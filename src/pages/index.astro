@@ -9,9 +9,8 @@ const blogPosts = await getCollection("blog");
 <Layout title="Emil Sadek">
 	<main class="text-lg">
 		<p class="bg-[#1e1e2e] rounded-lg p-6 mb-8">
-			Hi, I'm Emil. I'm a software developer based in Prague.
-			I currently work as a Technical Account Manager at RudderStack, enabling developers to solve complex customer data problems.
-			My interests include programming, data, analytics, and machine learning.
+			Hi, I'm Emil. I'm the founder of <a href="https://northstardata.co/">North Star Data</a>, a data engineering and analytics consultancy specialized in implementing modern data technologies for startups.
+			Previously, I worked at RudderStack, enabling developers to solve complex customer data problems.
 		</p>
 		<ul role="list" class="grid grid-cols-[repeat(auto-fit,_minmax(24ch,_1fr))] gap-8 p-0">
 			{blogPosts.map((post) => (
