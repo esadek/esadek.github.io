@@ -1,7 +1,9 @@
-import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   site: "https://emilsadek.com",
-  integrations: [tailwind()],
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
