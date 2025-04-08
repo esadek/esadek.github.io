@@ -14,7 +14,7 @@ const { title, date } = Astro.props;
         {title}
       </h1>
       <p class="text-[#a6adc8]">
-        {new Date(date).toDateString()}
+        {new Date(date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
       </p>
     </div>
     <slot />
