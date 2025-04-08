@@ -9,12 +9,14 @@ const { title, date } = Astro.props;
 
 <Layout title={title}>
   <div class="post pb-8">
-    <h1 class="text-3xl mb-2">
-      {title}
-    </h1>
-    <p class="text-[#a6adc8]">
-      {new Date(date).toDateString()}
-    </p>
+    <div class="mb-8">
+      <h1 class="text-3xl mb-2">
+        {title}
+      </h1>
+      <p class="text-[#a6adc8]">
+        {new Date(date).toDateString()}
+      </p>
+    </div>
     <slot />
   </div>
 </Layout>
