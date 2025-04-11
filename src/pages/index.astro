@@ -17,7 +17,7 @@ const sortedPosts = posts.sort((a, b) => {
     <ul class="flex flex-col gap-2 bg-[#1e1e2e] rounded-lg p-6">
       {sortedPosts.map((post) => (
         <a href={"/blog/" + post.slug}>
-          <div class="flex justify-between">
+          <div class="flex justify-between hover:text-[#89b4fa]">
             <p>{post.data.title}</p>
             <p>{new Date(post.data.date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</p>
           </div>
