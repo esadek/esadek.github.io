@@ -123,7 +123,8 @@ TO '2025-03-12.parquet'
 (FORMAT 'parquet', COMPRESSION zstd);
 ```
 
-With hashing and renaming shown earlier, the full statement would look like this.
+With the hashing and renaming shown earlier, the full statement would look like
+this.
 
 ```sql
 COPY (
