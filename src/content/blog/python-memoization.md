@@ -1,6 +1,5 @@
 ---
 title: Memoization in Python 3
-description: An introduction to implementing memoization in Python 3.
 date: 2021-05-24
 ---
 

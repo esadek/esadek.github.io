@@ -1,6 +1,5 @@
 ---
 title: Learn Machine Learning
-description: A collection of the best free lecture series and books on machine learning.
 date: 2023-07-04
 ---
 

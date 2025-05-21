@@ -1,6 +1,5 @@
 ---
 title: Merge Parquet with DuckDB
-description: Easily merge multiple Parquet files with DuckDB.
 date: 2025-04-19
 ---
 
