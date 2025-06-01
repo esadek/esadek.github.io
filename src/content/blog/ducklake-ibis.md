@@ -1,5 +1,5 @@
 ---
-title: DuckLake with Ibis
+title: DuckLake with Ibis Python DataFrames
 date: 2025-06-02
 ---
 
