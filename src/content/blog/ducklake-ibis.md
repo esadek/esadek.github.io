@@ -3,7 +3,14 @@ title: DuckLake with Ibis Python DataFrames
 date: 2025-06-02
 ---
 
-[DuckLake](https://ducklake.select/) is a new integrated data lake and catalog format from the [DuckDB](https://duckdb.org/) team. It uses a SQL database for all catalog and table metadata, and stores data in [Apache Parquet](https://parquet.apache.org/) files. Most users interact with DuckLake using SQL, but for those who prefer dataframes there's [Ibis](https://ibis-project.org/)—a portable Python dataframe library with support for DuckDB as a backend. To get started using DuckLake with Ibis, follow the steps below.
+[DuckLake](https://ducklake.select/) is a new integrated data lake and catalog
+format from the [DuckDB](https://duckdb.org/) team. It uses a SQL database for
+all catalog and table metadata, and stores data in
+[Apache Parquet](https://parquet.apache.org/) files. Most users interact with
+DuckLake using SQL, but for those who prefer dataframes there's
+[Ibis](https://ibis-project.org/)—a portable Python dataframe library with
+support for DuckDB as a backend. To get started using DuckLake with Ibis, follow
+the steps below.
 
 Create a new project with [uv](https://docs.astral.sh/uv/):
 
@@ -24,7 +31,8 @@ Launch JupyterLab:
 uv run jupyter lab
 ```
 
-Open `localhost:8888` in your browser, create a new Python notebook, then incrementally add and run the code below:
+Open `localhost:8888` in your browser, create a new Python notebook, then
+incrementally add and run the code below:
 
 ```python
 import ibis
