@@ -1,5 +1,6 @@
 ---
 title: PySpark and Jupyter in Docker
+description: A guide to running PySpark and Jupyter in a Docker container.
 date: 2025-06-10
 ---
 

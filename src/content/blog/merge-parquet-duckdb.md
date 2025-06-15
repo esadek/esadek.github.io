@@ -1,5 +1,6 @@
 ---
 title: Merge Parquet with DuckDB
+description: A guide to merging Apache Parquet files with DuckDB.
 date: 2025-04-19
 ---
 

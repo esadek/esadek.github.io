@@ -2,12 +2,7 @@
 import Navbar from "../components/Navbar.astro";
 import "../styles/global.css";
 
-interface Props {
-  title: string;
-}
-
-const { title } = Astro.props;
-const description = "Emil Sadek's personal website and blog.";
+const { title, description } = Astro.props;
 ---
 
 <!doctype html>
@@ -21,7 +16,7 @@ const description = "Emil Sadek's personal website and blog.";
     <meta property="og:description" content={description} />
     <meta property="og:image" content="/og_image.png" />
     <title>{title}</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <script is:inline type="text/javascript">
       if (!window.location.host.includes("localhost")) {
