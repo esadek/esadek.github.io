@@ -20,7 +20,7 @@ check out DuckDB's
 documentation.
 
 The first step is reading all Parquet files for a given day. All files matching
-the provided [glob pattern](https://en.wikipedia.org/wiki/Glob_(programming))
+the provided [glob pattern](<https://en.wikipedia.org/wiki/Glob_(programming)>)
 are read.
 
 ```sql
@@ -112,7 +112,7 @@ TO '2025-03-12.parquet'
 (FORMAT 'parquet');
 ```
 
-[Snappy](https://en.wikipedia.org/wiki/Snappy_(compression)) compression is used
+[Snappy](<https://en.wikipedia.org/wiki/Snappy_(compression)>) compression is used
 by default. A different compression algorithm such as
 [Zstandard](https://en.wikipedia.org/wiki/Zstd) can be specified if desired.
 

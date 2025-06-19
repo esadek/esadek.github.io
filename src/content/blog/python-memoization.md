@@ -5,7 +5,7 @@ date: 2021-05-24
 
 [Memoization](https://en.wikipedia.org/wiki/Memoization) is an optimization
 technique that speeds up programs by
-[caching](https://en.wikipedia.org/wiki/Cache_(computing)) the results of
+[caching](<https://en.wikipedia.org/wiki/Cache_(computing)>) the results of
 previous function calls. This allows subsequent calls to reuse the cached
 results, avoiding time-consuming recalculation. Memoization is commonly used in
 [dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming), where
@@ -16,7 +16,7 @@ The [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number) are a
 sequence of integers where each number is the sum of the two preceding numbers,
 starting with the numbers 0 and 1. A function that calculates the nth Fibonacci
 number is often implemented
-[recursively](https://en.wikipedia.org/wiki/Recursion_(computer_science)).
+[recursively](<https://en.wikipedia.org/wiki/Recursion_(computer_science)>).
 
 ```python
 def fibonacci(n):
@@ -43,7 +43,7 @@ memoization:
 (new in Python 3.2) and
 [`cache`](https://docs.python.org/3/library/functools.html#functools.cache) (new
 in Python 3.9). These decorators use a
-[least recently used (LRU)](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_(LRU))
+[least recently used (LRU)](<https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_Recently_Used_(LRU)>)
 cache, which stores items in order of use, discarding the least recently used
 items to make room for new items.
 

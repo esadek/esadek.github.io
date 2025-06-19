@@ -10,19 +10,31 @@ const sortedPosts = posts.sort((a, b) => {
 
 <Layout title="Emil Sadek">
   <main class="text-lg">
-    <p class="bg-[#11111b] rounded-lg p-6 mb-8">
-      Hi, I'm Emil. I'm the founder of <a href="https://northstardata.co/">North Star Data</a>, a data engineering and analytics consultancy specialized in implementing modern data technologies for startups.
-      Previously, I worked at RudderStack, enabling developers to solve complex customer data problems.
+    <p class="mb-8 rounded-lg bg-[#11111b] p-6">
+      Hi, I'm Emil. I'm the founder of <a href="https://northstardata.co/"
+        >North Star Data</a
+      >, a data engineering and analytics consultancy specialized in
+      implementing modern data technologies for startups. Previously, I worked
+      at RudderStack, enabling developers to solve complex customer data
+      problems.
     </p>
-    <ul class="flex flex-col gap-2 bg-[#1e1e2e] rounded-lg p-6">
-      {sortedPosts.map((post) => (
-        <a href={"/blog/" + post.slug}>
-          <div class="flex justify-between hover:text-[#89b4fa]">
-            <p>{post.data.title}</p>
-            <p class="text-right">{new Date(post.data.date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</p>
-          </div>
-        </a>
-      ))}
+    <ul class="flex flex-col gap-2 rounded-lg bg-[#1e1e2e] p-6">
+      {
+        sortedPosts.map((post) => (
+          <a href={"/blog/" + post.slug}>
+            <div class="flex justify-between hover:text-[#89b4fa]">
+              <p>{post.data.title}</p>
+              <p class="text-right">
+                {new Date(post.data.date).toLocaleDateString("en-US", {
+                  year: "numeric",
+                  month: "long",
+                  day: "numeric",
+                })}
+              </p>
+            </div>
+          </a>
+        ))
+      }
     </ul>
   </main>
 </Layout>
