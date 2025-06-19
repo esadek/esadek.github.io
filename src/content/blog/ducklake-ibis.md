@@ -22,7 +22,7 @@ cd ducklake-ibis
 Install DuckDB, Ibis and [JupyterLab](https://jupyter.org/):
 
 ```bash
-uv add duckdb 'ibis-framework[duckdb,examples]' jupyterlab
+uv add "ibis-framework[duckdb,examples]" jupyterlab
 ```
 
 Launch JupyterLab:
