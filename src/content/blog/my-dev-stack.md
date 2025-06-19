@@ -1,5 +1,6 @@
 ---
 title: My Development Stack
+description: A list of tools that are part of my development stack.
 date: 2025-06-14
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: DuckLake with Ibis Python DataFrames
+description: A guide to using Ibis Python dataframes with DuckLake.
 date: 2025-06-02
 ---
 
