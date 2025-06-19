@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 #notfound {
-  @apply flex flex-col justify-center text-center py-8;
+  @apply flex flex-col justify-center py-8 text-center;
 }
 
 #notfound .heading {
-  @apply text-5xl font-medium mt-4 mb-8;
+  @apply mt-4 mb-8 text-5xl font-medium;
 }
 
 .post h2 {
-  @apply text-xl mb-2;
+  @apply mb-2 text-xl;
 }
 
 .post ul {
@@ -25,25 +25,24 @@
 }
 
 .post pre {
-  @apply rounded-lg px-3 py-2 mb-4;
+  @apply mb-4 rounded-lg px-3 py-2;
 }
 
 .post img {
   @apply mb-4;
 }
 
-.post code {
+.post code:not(.gt_table code) {
   @apply text-sm;
   font-family:
-    ui-monospace,
-    "Cascadia Code",
-    "Source Code Pro",
-    Menlo,
-    Consolas,
-    "DejaVu Sans Mono",
-    monospace;
+    ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
+    "DejaVu Sans Mono", monospace;
 }
 
-.post p code {
+.post p code:not(.gt_table code) {
   @apply rounded-sm bg-[#1e1e2e] px-1 py-0.5;
+}
+
+#pb_tbl .gt_row code {
+  font-family: "IBM Plex Mono", monospace, courier;
 }
