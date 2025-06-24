@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("blog");
+const sortedPosts = posts.sort((a, b) => {
+  return new Date(b.data.date).getTime() - new Date(a.data.date).getTime();
+});
+---
+
+<ul class="flex flex-col gap-2 rounded-lg bg-[#1e1e2e] p-6 text-lg">
+  {
+    sortedPosts.map((post) => (
+      <a href={"/blog/" + post.slug}>
+        <div class="flex justify-between hover:text-[#89b4fa]">
+          <p>{post.data.title}</p>
+          <p class="text-right">
+            {new Date(post.data.date).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })}
+          </p>
+        </div>
+      </a>
+    ))
+  }
+</ul>
