@@ -4,7 +4,8 @@ let content = `# Emil Sadek
 
 > Emil Sadek's personal website and blog.
 
-Emil is the founder of North Star Data, a data engineering and analytics consultancy specialized in implementing modern data technologies for startups. Previously, he worked at RudderStack, enabling developers to solve complex customer data problems. 
+Emil is the founder of North Star Data, a data engineering and analytics consultancy specialized in implementing modern data technologies for startups.
+Previously, he worked at RudderStack, enabling developers to solve complex customer data problems. 
  
 ## Blog
 
