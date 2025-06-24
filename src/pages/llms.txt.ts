@@ -9,7 +9,7 @@ Previously, he worked at RudderStack, enabling developers to solve complex custo
  
 ## Blog
 
-`
+`;
 
 const posts = await getCollection("blog");
 const sortedPosts = posts.sort((a, b) => {
@@ -17,7 +17,7 @@ const sortedPosts = posts.sort((a, b) => {
 });
 sortedPosts.forEach((post) => {
   content += `- [${post.data.title}](https://emilsadek.com/blog/${post.slug}): ${post.data.description}\n`;
-})
+});
 
 export function GET() {
   return new Response(content);
