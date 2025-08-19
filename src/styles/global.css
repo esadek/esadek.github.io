@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: "Geist Variable", sans-serif;
+  --font-mono: "Geist Mono Variable", monospace;
+}
+
 #notfound {
   @apply flex flex-col justify-center py-8 text-center;
 }
@@ -34,9 +39,6 @@
 
 .post code:not(.gt_table code) {
   @apply text-sm;
-  font-family:
-    ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas,
-    "DejaVu Sans Mono", monospace;
 }
 
 .post p code:not(.gt_table code) {
